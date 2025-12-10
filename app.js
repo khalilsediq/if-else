@@ -15,15 +15,6 @@
 // }
 //////////////////Completed.
 
-
-
-
-
-
-
-
-
-
 // 2. Ask the user to enter a number. If it's positive, log: "Positive number"; else log:
 // "Not positive".
 // const userNum = Number(prompt("Enter, Number to check Positive, Negative"));
@@ -43,7 +34,28 @@
 // }
 ///////////Completed...
 
+// 3. Ask the user for a number. If it’s even, alert: "Even number"; else alert: "Odd
+// number".
 
+// const userNm = Number(prompt("Enter Number to check, Even and Odd"));
 
+// if (userNm % 2 === 0) {
+//   alert("Even number");
+// } else if (userNm % 2 === 1) {
+//   alert("Odd number");
+// } else {
+//   alert("Not a Valid Number");
+// }
+/////////////Completed.
 
+// 4. Ask for a username. If the username is "admin", display "Welcome, admin!"; else
+// display "Access denied."
 
+const userName = prompt("Enter Your UserName").toUpperCase();
+
+if (userName === "ADMIN") {
+  alert("Wellcom, admin! Access Granted!");
+} else {
+  alert("Access denied");
+}
+///////////////Completed.....
