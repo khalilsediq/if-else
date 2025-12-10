@@ -284,3 +284,51 @@
 //   alert("Waiting for input.....");
 // }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+/*Title: Advanced JavaScript Conditional Logic Practice
+
+🔸 Instructions:
+Write JavaScript if - else if - else conditions to solve the following problems. Use
+logical operators like && and || where applicable. Do not write solutions here—just practice
+writing the condition blocks.*/
+
+/*   1. Age-Based Grade Check
+Check a student's marks and display:
+● "Distinction" if marks ≥ 80
+● "Pass" if marks ≥ 50 and < 80
+● "Fail" if marks < 50
+● "Invalid Marks" if marks are not between 0 and 100            */
+
+// const marks = Number(prompt("Enter Marks to check Grade"));
+
+// if (marks > 100 || marks < 0) {
+//   alert("Invalid Marks");
+// } else if (marks >= 80) {
+//   alert("Distinction");
+// } else if (marks >= 50 && marks < 80) {
+//   alert("Pass");
+// } else if (marks < 50) {
+//   alert("Fail");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+/* 2. Discount Eligibility Based on Age and Membership
+Given a person's age and membership status, show:
+● "Senior Premium Discount" if age ≥ 60 and is a premium member
+● "Senior Discount" if age ≥ 60
+● "Premium Discount" if a premium member
+● "No Discount" otherwise */
+
+const age = Number(prompt("Enter Your age"));
+const isPremiumUser = prompt("Are you Premium User").toLowerCase();
+
+if (age >= 60 && isPremiumUser === "yes") {
+  alert("Senior Premium Discount");
+} else if (age >= 60) {
+  alert("Senior Discount");
+} else if (isPremiumUser === "yes") {
+  alert("Premium Discount");
+} else {
+  alert("No Discount");
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
