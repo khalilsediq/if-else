@@ -319,16 +319,17 @@ Given a person's age and membership status, show:
 ● "Premium Discount" if a premium member
 ● "No Discount" otherwise */
 
-const age = Number(prompt("Enter Your age"));
-const isPremiumUser = prompt("Are you Premium User").toLowerCase();
+// const age = Number(prompt("Enter Your age"));
+// const isPremiumUser = prompt("Are you Premium User").toLowerCase();
 
-if (age >= 60 && isPremiumUser === "yes") {
-  alert("Senior Premium Discount");
-} else if (age >= 60) {
-  alert("Senior Discount");
-} else if (isPremiumUser === "yes") {
-  alert("Premium Discount");
-} else {
-  alert("No Discount");
-}
+// if (age >= 60 && isPremiumUser === "yes") {
+//   alert("Senior Premium Discount");
+// } else if (age >= 60) {
+//   alert("Senior Discount");
+// } else if (isPremiumUser === "yes") {
+//   alert("Premium Discount");
+// } else {
+//   alert("No Discount");
+// }
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
