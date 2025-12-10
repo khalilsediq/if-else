@@ -79,16 +79,31 @@
 // 6. Ask the user to enter two numbers. Check which one is larger and alert: "First is
 // larger" or "Second is larger".
 
-const userNm = Number(prompt("Enter First Number"));
-const userNm2 = Number(prompt("Enter Second Number"));
+// const userNm = Number(prompt("Enter First Number"));
+// const userNm2 = Number(prompt("Enter Second Number"));
 
-if (userNm > userNm2) {
-  alert("First Number Is larger than Second ");
-} else if (userNm === userNm2) {
-  alert("Both are Equal");
-} else if (isNaN(userNm) || isNaN(userNm2)) {
-  alert("Please! Enter a Valid Input");
-} else {
-  alert("Second Number Is larger than First");
-}
+// if (userNm > userNm2) {
+//   alert("First Number Is larger than Second ");
+// } else if (userNm === userNm2) {
+//   alert("Both are Equal");
+// } else if (isNaN(userNm) || isNaN(userNm2)) {
+//   alert("Please! Enter a Valid Input");
+// } else {
+//   alert("Second Number Is larger than First");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 7. Ask for a number. If it's greater than 100, alert "Too big!", else alert "Within
+// range".
+
+// const usrNum = Number(
+//   prompt("kindly! Enter A Number, To check if it is in Range")
+// );
+// if (isNaN(usrNum)) {
+//   alert("Please! Enter a valid Number");
+// } else if (usrNum > 100) {
+//   alert("Too Big!");
+// } else {
+//   alert("Within Range.");
+// }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
