@@ -51,11 +51,32 @@
 // 4. Ask for a username. If the username is "admin", display "Welcome, admin!"; else
 // display "Access denied."
 
-const userName = prompt("Enter Your UserName").toUpperCase();
+// const userName = prompt("Enter Your UserName").toUpperCase();
 
-if (userName === "ADMIN") {
-  alert("Wellcom, admin! Access Granted!");
-} else {
-  alert("Access denied");
-}
+// if (userName === "ADMIN") {
+//   alert("Wellcom, admin! Access Granted!");
+// } else {
+//   alert("Access denied");
+// }
 ///////////////Completed.....
+
+// 5. Ask for two numbers. If they are equal, log "Both numbers are the same";
+// otherwise, log "The numbers are different".
+const num1 = Number(prompt("Enter Any Number "));
+const num2 = Number(prompt("Enter Another Number"));
+
+if (num1 === num2) {
+  console.log("Both numbers are the same");
+  alert("Both numbers are the same")
+} else if (isNaN(num1) || isNaN(num2)) {
+    console.log(" ❌ Invalid Number intered ");
+    alert(" ❌ Invalid Number Entered ")
+} else {
+    console.log("The numbers are different");
+    alert("The numbers are different")
+}
+/////////////////////Completed......
+
+
+
+
