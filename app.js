@@ -107,3 +107,180 @@
 //   alert("Within Range.");
 // }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 8. Ask for a score. If it’s 50 or higher, log "You passed!", else log "You failed."
+
+// const score = Number(prompt("Kindly, Enter Your Score!"));
+
+// if (isNaN(score)) {
+//   console.log("kindly, input Numbers Only!");
+// } else if (score >= 50) {
+//   console.log("You Passed!");
+// } else {
+//   console.log("You Failed.");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 9. Ask the user to enter a temperature. If it’s over 30, alert "It's hot!"; else alert "It's not hot."
+
+// const userTemp = Number(prompt("Enter a Temperature."));
+
+// if(isNaN(userTemp)){
+//     alert("Input Temperature in Numbers ONLY")
+// }else if (userTemp > 30){
+//     alert("It's Hot!")
+// }else {
+//     alert("It's Not Hot");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+//  10. Ask the user to enter a number. If it's 0, alert "Zero"; if it’s not zero, alert "Not zero".
+
+// const userNumber = Number(prompt("Enter a Number"));
+
+// if (isNaN(userNumber)) {
+//   alert("Invalid Number");
+// } else if (userNumber === 0) {
+//   alert("Zero");
+// } else {
+//   alert("Not Zero");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 11. Ask the user for their age. If it's 60 or more, log "You are a senior citizen.",
+// else log "You are not a senior."
+
+// const userAge = Number(prompt("Enter Your age!"));
+
+// if (isNaN(userAge)) {
+//   console.log("Enter Your Age in Numbers Only");
+// } else if (userAge >= 60) {
+//   console.log("You are a Senior citizen.");
+// } else {
+//   console.log("You are not a senior.");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 12. Ask the user for their name. If the name is "Alice", alert "Hi, Alice!"; else alert
+// "You're not Alice!"
+
+// const usrName = prompt("Enter Your Name").toUpperCase();
+
+// if (usrName === "ALICE") {
+//   alert("Hi, Alice!");
+// } else {
+//   alert("You're not Alice!");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 13. Ask the user for a password. If it matches "12345", log "Correct password"; else
+// log "Wrong password".
+
+// const password = prompt("Enter Your Password");
+
+// if (password === "12345") {
+//   console.log("Correct Password");
+// } else {
+//   console.log("Wrong Password");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 14. Ask the user for the current hour (0–23). If it’s less than 12, alert "Good morning!";
+// else alert "Good afternoon!"
+
+// const hour = prompt("Enter Current Hour In this (0-23) Formate");
+
+// if (hour > 0 && hour < 12) {
+//   alert("Good morning!");
+// } else {
+//   alert("Good afternoon!");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 15. Ask the user to enter a number. If it's divisible by 5, log "Divisible by 5"; else log
+// "Not divisible by 5".
+
+// const number = Number(prompt("Enter a Number"));
+
+// if (isNaN(number)) {
+//   console.log("Enter Number Only");
+// } else if (number % 5 === 0) {
+//   console.log("Divisible By 5");
+// } else {
+//   console.log("Not Divisible By 5");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 16. Ask the user if they want to play a game (yes/no). If they type "yes", alert "Let's
+// play!"; else alert "Maybe next time!"
+
+// const user = prompt("Do you want to play Game").toUpperCase();
+
+// if(user === 'YES'){
+//     alert("Let's play!")
+// }else{
+//     alert("Maybe next time!")
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 17. Ask the user for a color. If the color is "blue", log "Cool choice!"; else log
+// "Interesting color!"
+
+// const color = prompt("Enter any Color").toLowerCase();
+
+// if (color === "blue") {
+//   console.log("Cool Choice!");
+// } else {
+//   console.log("Interesting Color!");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 18. Ask for the day of the week. If it’s "Sunday", alert "Weekend!"; else alert "Weekday".
+
+// const week = prompt("Enter Any Day of the Week").toLowerCase();
+
+// if (week === "sunday") {
+//   alert("Weekend!");
+// } else {
+//   alert("WeekDay");
+// }
+
+// if (
+//   week === "monday" ||
+//   week === "tuesday" ||
+//   week === "wednesday" ||
+//   week === "thursday" ||
+//   week === "friday" ||
+//   week === "saturday"
+// ) {
+//   alert("Weekday");
+// } else if (week === "sunday") {
+//   alert("Weekend!");
+// } else {
+//   alert("invalid Day");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 19. Ask the user to enter a fruit. If it's "banana" or "apple", alert "We have that!";
+// else alert "Sorry, out of stock."
+
+// const fruit = prompt("Enter a Fruit.").toLowerCase();
+
+// if (fruit === "banana" || fruit === "apple") {
+//   alert("We Have that!");
+// } else {
+//   alert("sorry, Out of Stock");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 20. Ask the user to type "start" to begin. If they do, alert "Game started!"; else alert
+// "Waiting for input..."
+
+// const user = prompt(`Type "Start" To Enter `).toLowerCase();
+
+// if (user === "start") {
+//   alert("Game Sarted!");
+// } else {
+//   alert("Waiting for input.....");
+// }
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
