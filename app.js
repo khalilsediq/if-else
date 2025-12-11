@@ -362,17 +362,68 @@ Check if a person is eligible to enter a contest:
 
 Display appropriate messages for age, region, or ban issues. */
 
-const age = Number(prompt("Enter Your Age"));
-const country = prompt("Enter Your Country").toLowerCase();
-const isBanned = confirm("Are You banned: (ok = 'yes', cancel = 'no'")
+// const age = Number(prompt("Enter Your Age"));
+// const country = prompt("Enter Your Country").toLowerCase();
+// const isBanned = confirm("Are You banned: (ok = 'yes', cancel = 'no'")
 
-if (isBanned) {
-  alert("you are banned");
-} else if (age < 18 && age > 35) {
-  alert("You're not eligible for the contest");
-} else if (country !== "india" && country !== "pakistan") {
-  alert("You are not eligible for the contest");
-} else {
-  alert("you ae eligible for the contest?");
-}
+// if (isBanned) {
+//   alert("you are banned");
+// } else if (age < 18 && age > 35) {
+//   alert("You're not eligible for the contest");
+// } else if (country !== "india" && country !== "pakistan") {
+//   alert("You are not eligible for the contest");
+// } else {
+//   alert("you ae eligible for the contest?");
+// }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+/* 5. Subscription Access Check
+Given the subscription plan and login status:
+● "Welcome Premium User" if plan is "premium" and logged in
+● "Welcome Free User" if plan is "free" and logged in
+● "Please log in to continue" if not logged in
+● "Invalid subscription" otherwise */
+
+// const isloggedIn = prompt("Are You logged In? Yes/No").toLowerCase();
+// const subscription = prompt("Enter Your Subscription Plan!").toLowerCase();
+// if (isloggedIn === "no") {
+//   alert("Please log in to continue");
+// } else if (subscription === "premium" && isloggedIn === "yes") {
+//   alert("Welcome Premium User");
+// } else if (subscription === "free" && isloggedIn === "yes") {
+//   alert("Welcome Free User");
+// } else if (isloggedIn !== 'yes' && isloggedIn !== 'no'){
+//   alert("Enter Information for loggin, in yes/no Order only")
+// }
+//  else {
+//   alert("invalid Subscription");
+// }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+// 7. Work Hours Check
+// Check based on hoursWorked and isWeekend:
+
+// ● "Overtime" if hours > 40 and not a weekend
+// ● "Weekend work" if hours > 0 and is weekend
+// ● "Regular hours" if ≤ 40
+// ● "No work" if hours === 0
+
+const hoursWorked = Number(prompt("How many hours have you worked?"));
+const isWeekend = prompt("is it weekEnd? (saturday/sunday)" ).toLowerCase();
+
+if (hoursWorked > 40 && isWeekend !== "sunday" && isWeekend !== "saturday") {
+  alert("Overtime");
+} else if (
+  hoursWorked > 0 && (  isWeekend === "sunday" ||
+  isWeekend === "saturday")
+) {
+  alert("Weekend work");
+} else if (hoursWorked === 0) {
+  alert("no Work");
+} else if (hoursWorked <= 40 ) {
+  alert("Regular hours");
+} else {
+  alert("Input every thing correctly!");
+}
+/////////////////////////////Completed
