@@ -333,3 +333,23 @@ Given a person's age and membership status, show:
 // }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
+/* 3. Login and Email Verification
+● If user is logged in and email is verified → "Access granted"
+● If user is logged in but not verified → "Please verify your email"
+● If not logged in → "Please log in" */
+
+const isloggedIn = prompt("Are You logged in. Answer in Yes/No?").toLowerCase();
+const emailVerified = prompt(
+  "Is Your Email verified. Ans in Yes/No?"
+).toLowerCase();
+
+if (isloggedIn === "yes" && emailVerified === "yes") {
+  console.log("Access Granted");
+} else if (isloggedIn === "yes" && emailVerified === "no") {
+  console.log("Please Verify your email");
+} else {
+  console.log("Please log in");
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
+
