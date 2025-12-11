@@ -339,17 +339,40 @@ Given a person's age and membership status, show:
 ● If user is logged in but not verified → "Please verify your email"
 ● If not logged in → "Please log in" */
 
-const isloggedIn = prompt("Are You logged in. Answer in Yes/No?").toLowerCase();
-const emailVerified = prompt(
-  "Is Your Email verified. Ans in Yes/No?"
-).toLowerCase();
+// const isloggedIn = prompt("Are You logged in. Answer in Yes/No?").toLowerCase();
+// const emailVerified = prompt(
+//   "Is Your Email verified. Ans in Yes/No?"
+// ).toLowerCase();
 
-if (isloggedIn === "yes" && emailVerified === "yes") {
-  console.log("Access Granted");
-} else if (isloggedIn === "yes" && emailVerified === "no") {
-  console.log("Please Verify your email");
-} else {
-  console.log("Please log in");
-}
+// if (isloggedIn === "yes" && emailVerified === "yes") {
+//   console.log("Access Granted");
+// } else if (isloggedIn === "yes" && emailVerified === "no") {
+//   console.log("Please Verify your email");
+// } else {
+//   console.log("Please log in");
+// }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
 
+/* 4. Contest Eligibility
+Check if a person is eligible to enter a contest:
+
+● Must be between ages 18–35
+● Must be from Pakistan or India
+● Must not be banned
+
+Display appropriate messages for age, region, or ban issues. */
+
+const age = Number(prompt("Enter Your Age"));
+const country = prompt("Enter Your Country").toLowerCase();
+const isBanned = confirm("Are You banned: (ok = 'yes', cancel = 'no'")
+
+if (isBanned) {
+  alert("you are banned");
+} else if (age < 18 && age > 35) {
+  alert("You're not eligible for the contest");
+} else if (country !== "india" && country !== "pakistan") {
+  alert("You are not eligible for the contest");
+} else {
+  alert("you ae eligible for the contest?");
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////Completed......
