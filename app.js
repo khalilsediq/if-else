@@ -409,21 +409,21 @@ Given the subscription plan and login status:
 // ● "Regular hours" if ≤ 40
 // ● "No work" if hours === 0
 
-const hoursWorked = Number(prompt("How many hours have you worked?"));
-const isWeekend = prompt("is it weekEnd? (saturday/sunday)" ).toLowerCase();
+// const hoursWorked = Number(prompt("How many hours have you worked?"));
+// const isWeekend = prompt("is it weekEnd? (saturday/sunday)" ).toLowerCase();
 
-if (hoursWorked > 40 && isWeekend !== "sunday" && isWeekend !== "saturday") {
-  alert("Overtime");
-} else if (
-  hoursWorked > 0 && (  isWeekend === "sunday" ||
-  isWeekend === "saturday")
-) {
-  alert("Weekend work");
-} else if (hoursWorked === 0) {
-  alert("no Work");
-} else if (hoursWorked <= 40 ) {
-  alert("Regular hours");
-} else {
-  alert("Input every thing correctly!");
-}
+// if (hoursWorked > 40 && isWeekend !== "sunday" && isWeekend !== "saturday") {
+//   alert("Overtime");
+// } else if (
+//   hoursWorked > 0 && (  isWeekend === "sunday" ||
+//   isWeekend === "saturday")
+// ) {
+//   alert("Weekend work");
+// } else if (hoursWorked === 0) {
+//   alert("no Work");
+// } else if (hoursWorked <= 40 ) {
+//   alert("Regular hours");
+// } else {
+//   alert("Input every thing correctly!");
+// }
 /////////////////////////////Completed
