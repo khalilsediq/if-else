@@ -1,8 +1,6 @@
 // 1. Ask the user for their age. If the age is 18 or more, show an alert: "You are an
 // adult.", else show: "You are a minor."
 
-const { act } = require("react");
-
 // const age = Number(prompt("Enter Your Age"));
 // if (age >= 18 && age <= 35) {
 //   alert("your are Adult, and Young");
@@ -788,7 +786,7 @@ if (temp < 10) {
 
 // if (activity === 'sedentary') {
 //   alert("2L")
-  
+
 // }else if(activity === 'moderate'){
 //   alert("2.5L")
 // }else if (activity === 'active'){
@@ -797,3 +795,19 @@ if (temp < 10) {
 //   alert("Enter Your Activity Correctly.")
 // }
 //////////////////////////////////////////////Completed
+
+// 8. Exam Result Evaluation
+// Given three subject marks, print:
+
+// "Pass" if all marks are 40 or above
+// "Fail" if any mark is below 40
+
+const english = Number(prompt("Enter your english marks"));
+const math = Number(prompt("Enter Your Math's Marks"));
+const Geography = Number(prompt("Enter Your Geography Marks"));
+
+if (english >= 40 && math >= 40 && Geography >= 40) {
+  alert("Pass");
+} else {
+  alert("fail");
+}
