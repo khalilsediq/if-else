@@ -1,6 +1,8 @@
 // 1. Ask the user for their age. If the age is 18 or more, show an alert: "You are an
 // adult.", else show: "You are a minor."
 
+const { act } = require("react");
+
 // const age = Number(prompt("Enter Your Age"));
 // if (age >= 18 && age <= 35) {
 //   alert("your are Adult, and Young");
@@ -636,3 +638,162 @@ if (weatherTemp >= 40 && humidity >= 60) {
 // } else {
 //   alert("please switch to chrome");
 // }
+
+///////////////////////////////////////////////////////Completed
+
+/////////////////////////////////Python//////////////////////////////////////////////////
+// Started
+// 1. Speed Limit Warning
+// Given a speed, print:
+
+// "Too slow" if below 30
+// "Safe speed" if between 30 and 60
+// "Speeding" if between 61 and 100
+// "Dangerously fast" if over 100
+
+/*
+const speed = Number(prompt("Enter Your speed."));
+
+if (speed < 30) {
+  alert("Too Slow");
+} else if (speed >= 30 && speed <= 60) {
+  alert("Safe Speed");
+} else if (speed > 60 && speed <= 100) {
+  alert("Speeding");
+} else {
+  alert("Dangerously fast");
+}*/
+///////////////////////////////////////////////////////Completed
+
+// 2. Library Book Return Fine
+// Given number of late days, calculate the fine:
+
+// 0 days: $0
+// 1–5 days: $1 per day
+// 6–10 days: $2 per day
+// 11+ days: $5 per day
+
+// const days = Number(prompt("Enter your days"));
+
+// if (days <= 0) {
+//   alert("$0");
+// } else if (days <= 5) {
+//   alert(`Your calculated Fine => $${days * 1}, Fine per Day is $1, Total Days are ${days}`);
+// } else if (days <= 10) {
+//   alert(`Your calculated Fine => $${days * 2} , Fine per Day is $2, Total Days are ${days}`);
+// } else {
+//   alert(`Your calculated Fine => $${days * 5} , Fine per Day is $5, Total Days are ${days}`);
+// }
+///////////////////////////Completed.
+
+// 3. Event Entry Eligibility
+// Check if a person (with age and ticket) can enter:
+
+// Must be 18 or older
+// Must have a valid ticket
+
+// const age = Number(prompt("Your Age, For Event Eligibility"));
+// const ticket = prompt("Have ticket? Enter Yes, And No. Only!").toLowerCase();
+
+// if ((age >= 18 && ticket === "yes") || ticket === "y") {
+//   alert("You are Eligible");
+// } else if ((age >= 18 && ticket === "no") || ticket === "n") {
+//   alert("You Must Have a Valid Ticket");
+// } else if ((age < 18 && ticket === "yes") || ticket === "y") {
+//   alert("You Must Be 18 or Older, to Enter.");
+// } else {
+//   alert("Not Allowed- Must Be 18 or older , and have a Valid Ticket ");
+// }
+///////////////////////////Completed.
+
+//4. Smartphone Battery Status
+/*Given battery percentage, print:
+
+80–100: "Fully charged"
+50–79: "Good battery"
+20–49: "Low battery"
+Below 20: "Charge now!" */
+
+/* const batteryPercent = Number(prompt("Enter Your Battery pecentage"));
+
+if (batteryPercent >= 80 && batteryPercent <= 100) {
+  alert("fully charged");
+} else if (batteryPercent <= 79 && batteryPercent >= 50) {
+  alert("Good battery");
+} else if (batteryPercent <= 49 && batteryPercent >= 20) {
+  alert("Low Battery");
+} else if (batteryPercent < 20 && batteryPercent >= 0) {
+  alert("Charge now!");
+} else {
+  alert("Incorrect Percentage!")
+}
+*/
+//////////////////////////////////Completed.
+
+// 5. Discount Eligibility
+// Given customer type and age, apply discount:
+
+// Student: 20%
+// Senior (60+): 30%
+// Others: 0%
+
+/*
+const type = prompt("Are you student?").toLowerCase();
+const age = Number(prompt("what is your age?"));
+
+if (type === "yes" || type === 'y') {
+  alert("20% Discount");
+} else if (age >= 60) {
+  alert("30%, Senior Discount.");
+} else {
+  alert("0% discount.")
+} */
+//////////////////////////////////Completed.
+
+// 6. Clothing Recommendation
+// Based on temperature (°C), suggest clothing:
+
+// Below 10: "Heavy jacket"
+// 10–20: "Sweater"
+// 21–30: "T-shirt"
+// Above 30: "Light clothes"
+
+/* 
+const temp = Number(
+  prompt("Enter Your temperature in °C, for clothing recommendation ")
+);
+
+if (temp < 10) {
+  alert("Heavy Jacket");
+} else if (temp <= 20) {
+  alert("Sweater");
+} else if (temp <= 30) {
+  alert("T-shirt");
+} else {
+  alert("Light Clothes");
+}
+*/
+//////////////////////////////////Completed.
+
+// 7. Water Intake Reminder
+// Based on activity level, suggest water intake:
+
+// Sedentary: 2L
+// Moderate: 2.5L
+// Active: 3L+
+
+// const activity = prompt(
+//   "Tell us your Activity, (Sedentary/Moderate/Active), For sugesting Water intake"
+// ).toLowerCase();
+
+// if (activity === 'sedentary') {
+//   alert("2L")
+  
+// }else if(activity === 'moderate'){
+//   alert("2.5L")
+// }else if (activity === 'active'){
+//   alert("3L+")
+// }else {
+//   alert("Enter Your Activity Correctly.")
+// }
+//////////////////////////////////////////////Completed
