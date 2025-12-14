@@ -814,15 +814,11 @@ if (english >= 40 && math >= 40 && Geography >= 40) {
 */
 //////////////////////////////////////////////Completed
 
-
-
-
 // 9. App Theme Selection
 // Based on time of day (0–23), select theme:
 
 // 6–17: Light Mode
 // Otherwise: Dark Mode
-
 
 /*
 const time = Number(
@@ -838,4 +834,27 @@ if (time >= 6 && time <= 17) {
 } else {
   alert("Enter it in correct formate  (0-23)hours");
 } */
+//////////////////////////////////////////////Completed
+
+// 10. Meal Type Identifier
+// Based on time of day (0–23), identify meal:
+
+// 6–10: Breakfast
+// 12–14: Lunch
+// 18–21: Dinner
+// Any other time: Snack
+
+const time = Number(prompt("Enter Your time To identify meal type identifier"));
+
+if (time < 0 || time > 23 || isNaN(time)) {
+  alert("Enter Your Time correctly, in (0-23)-Hours Formate");
+} else if (time >= 6 && time <= 10) {
+  alert("Breakfast");
+} else if (time >= 13 && time <= 14) {
+  alert("Lunch");
+} else if (time >= 18 && time <= 21) {
+  alert("Dinner");
+} else {
+  alert("Snack");
+}
 //////////////////////////////////////////////Completed
