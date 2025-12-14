@@ -850,7 +850,7 @@ if (time < 0 || time > 23 || isNaN(time)) {
   alert("Enter Your Time correctly, in (0-23)-Hours Formate");
 } else if (time >= 6 && time <= 10) {
   alert("Breakfast");
-} else if (time >= 13 && time <= 14) {
+} else if (time >= 12 && time <= 14) {
   alert("Lunch");
 } else if (time >= 18 && time <= 21) {
   alert("Dinner");
