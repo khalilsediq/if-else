@@ -801,7 +801,7 @@ if (temp < 10) {
 
 // "Pass" if all marks are 40 or above
 // "Fail" if any mark is below 40
-
+/*
 const english = Number(prompt("Enter your english marks"));
 const math = Number(prompt("Enter Your Math's Marks"));
 const Geography = Number(prompt("Enter Your Geography Marks"));
@@ -811,3 +811,31 @@ if (english >= 40 && math >= 40 && Geography >= 40) {
 } else {
   alert("fail");
 }
+*/
+//////////////////////////////////////////////Completed
+
+
+
+
+// 9. App Theme Selection
+// Based on time of day (0–23), select theme:
+
+// 6–17: Light Mode
+// Otherwise: Dark Mode
+
+
+/*
+const time = Number(
+  prompt(
+    "Enter Your Time in This (0-23)hours-Formate , to check App theme Selection"
+  )
+);
+
+if (time >= 6 && time <= 17) {
+  alert("Light Mode.");
+} else if (time <= 23 && time >= 0) {
+  alert("Dark Mode.");
+} else {
+  alert("Enter it in correct formate  (0-23)hours");
+} */
+//////////////////////////////////////////////Completed
